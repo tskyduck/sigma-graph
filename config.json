@@ -8,23 +8,23 @@
     "text": "Amigo"
   },
   "text": {
-    "more": "",
-    "intro": "",
-    "title": "湾区政策"
+    "more": "通过对湾区政策进行分词、去停用词之后，将词与词之间的联系进行可视化展示。",
+    "intro": "展示湾区政策中，词与词之间的联系",
+    "title": "湾区政策语义网"
   },
   "legend": {
-    "edgeLabel": "",
-    "colorLabel": "",
-    "nodeLabel": ""
+    "edgeLabel": "联系强度",
+    "colorLabel": "主题",
+    "nodeLabel": "关键词"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": false,
-    "hoverBehavior": "default"
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "dim"
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
-    "imageAttribute": false
+    "imageAttribute": "Modularity Class"
   },
   "sigma": {
     "drawingProperties": {
